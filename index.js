@@ -1,4 +1,5 @@
-const boot =require("bootstrap")
+const {readFile}= require("fs")
 
-console.log(boot);
-console.log("hello world");
+readFile("./content/file.txt","utf8",(data)=>{
+console.log(data);
+})

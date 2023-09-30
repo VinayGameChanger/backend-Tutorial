@@ -1,0 +1,14 @@
+We create a promise using the new Promise() constructor. Inside the constructor, there's an asynchronous operation simulated with setTimeout. Depending on a randomly generated number, the promise is either resolved with a success message or rejected with an error message.
+
+We use the .then() method to specify what should happen when the promise is resolved. In this case, we log the success message to the console.
+
+We use the .catch() method to specify what should happen when the promise is rejected. In this case, we log the error message to the console.
+
+Promises allow you to write asynchronous code in a more sequential and readable way. They also make it easier to handle errors and ensure that your code is more maintainable when dealing with asynchronous operations.
+
+In modern JavaScript, you can also use async/await syntax, which builds on promises and provides a more synchronous-looking way to work with asynchronous code.
+
+
+
+
+
